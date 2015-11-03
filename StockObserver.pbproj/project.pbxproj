@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		00C8CB33FF64637D7F000001 = {
+			isa = PBXFileReference;
+			path = NotificationObserve.c;
+			refType = 4;
+		};
+		00C8CB34FF64637D7F000001 = {
+			fileRef = 00C8CB33FF64637D7F000001;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+//000
+//001
+//002
+//003
+//004
+//010
+//011
+//012
+//013
+//014
+		01146B7CFF672EB811CA0C5D = {
+			isa = PBXFileReference;
+			path = README.rtf;
+			refType = 4;
+		};
+		01146B7DFF672EB811CA0C5D = {
+			fileRef = 01146B7CFF672EB811CA0C5D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01D4F809FFB7A98F11CA0CA4 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		01D4F80AFFB7A98F11CA0CA4 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//040
+//041
+//042
+//043
+//044
+		043355C9FE30361CC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+		};
+//040
+//041
+//042
+//043
+//044
+//080
+//081
+//082
+//083
+//084
+		080E96DCFE201CFB7F000001 = {
+			fileRef = 29B97318FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		080E96DDFE201D6D7F000001 = {
+			children = (
+				21C3FD46FEAB647A11CA0E35,
+				21C3FD47FEAB647A11CA0E35,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+		};
+//080
+//081
+//082
+//083
+//084
+//160
+//161
+//162
+//163
+//164
+		1629D127FF67EE6211CA0C5D = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		1629D128FF67EE6211CA0C5D = {
+			children = (
+				1629D129FF67EE6211CA0C5D,
+				1629D12BFF67F08D11CA0C5D,
+				1629D12CFF67F08D11CA0C5D,
+			);
+			isa = PBXGroup;
+			name = "Referenced (Non-linked)";
+			refType = 4;
+		};
+		1629D129FF67EE6211CA0C5D = {
+			isa = PBXFrameworkReference;
+			name = CoreFoundation.framework;
+			path = /System/Library/Frameworks/CoreFoundation.framework;
+			refType = 0;
+		};
+		1629D12AFF67EE6211CA0C5D = {
+			fileRef = 1629D127FF67EE6211CA0C5D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1629D12BFF67F08D11CA0C5D = {
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+		};
+		1629D12CFF67F08D11CA0C5D = {
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+		};
+//160
+//161
+//162
+//163
+//164
+//200
+//201
+//202
+//203
+//204
+		20EBBB22FEAB640D11CA0E35 = {
+			children = (
+				6F027049FF601FB711CA0E33,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//200
+//201
+//202
+//203
+//204
+//210
+//211
+//212
+//213
+//214
+		21C3FD46FEAB647A11CA0E35 = {
+			isa = PBXFileReference;
+			path = StockObserver.m;
+			refType = 4;
+		};
+		21C3FD47FEAB647A11CA0E35 = {
+			isa = PBXFileReference;
+			path = StockObserver.h;
+			refType = 4;
+		};
+		21C3FD48FEAB647A11CA0E35 = {
+			fileRef = 21C3FD47FEAB647A11CA0E35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		21C3FD49FEAB647A11CA0E35 = {
+			fileRef = 21C3FD46FEAB647A11CA0E35;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+//210
+//211
+//212
+//213
+//214
+//290
+//291
+//292
+//293
+//294
+		29B97313FDCFA39411CA2CEA = {
+			buildStyles = (
+				01D4F809FFB7A98F11CA0CA4,
+				01D4F80AFFB7A98F11CA0CA4,
+			);
+			isa = PBXProject;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
+			projectDirPath = "";
+			targets = (
+				29B97326FDCFA39411CA2CEA,
+			);
+		};
+		29B97314FDCFA39411CA2CEA = {
+			children = (
+				01146B7CFF672EB811CA0C5D,
+				080E96DDFE201D6D7F000001,
+				29B97315FDCFA39411CA2CEA,
+				29B97317FDCFA39411CA2CEA,
+				29B97323FDCFA39411CA2CEA,
+				20EBBB22FEAB640D11CA0E35,
+			);
+			isa = PBXGroup;
+			name = CocoaApp;
+			path = "";
+			refType = 4;
+		};
+		29B97315FDCFA39411CA2CEA = {
+			children = (
+				29B97316FDCFA39411CA2CEA,
+				00C8CB33FF64637D7F000001,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			path = "";
+			refType = 4;
+		};
+		29B97316FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			path = main.m;
+			refType = 4;
+		};
+		29B97317FDCFA39411CA2CEA = {
+			children = (
+				29B97318FDCFA39411CA2CEA,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+		};
+		29B97318FDCFA39411CA2CEA = {
+			children = (
+				29B97319FDCFA39411CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = MainMenu.nib;
+			path = "";
+			refType = 4;
+		};
+		29B97319FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/MainMenu.nib;
+			refType = 4;
+		};
+		29B97323FDCFA39411CA2CEA = {
+			children = (
+				1629D127FF67EE6211CA0C5D,
+				1629D128FF67EE6211CA0C5D,
+			);
+			isa = PBXGroup;
+			name = "Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		29B97326FDCFA39411CA2CEA = {
+			buildPhases = (
+				29B97327FDCFA39411CA2CEA,
+				29B97328FDCFA39411CA2CEA,
+				29B9732BFDCFA39411CA2CEA,
+				29B9732DFDCFA39411CA2CEA,
+				043355C9FE30361CC02AAC07,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = StockObserver;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = StockObserver;
+			productInstallPath = "$(HOME)/Applications";
+			productName = StockObserver;
+			productReference = 6F027049FF601FB711CA0E33;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>StockObserver</string>
+	<key>CFBundleGetInfoString</key>
+	<string>CFNotificationCenter Example</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.examples.StockObserver</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Stock Observer</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string></string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+			shouldUseHeadermap = 0;
+		};
+		29B97327FDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				21C3FD48FEAB647A11CA0E35,
+			);
+			isa = PBXHeadersBuildPhase;
+		};
+		29B97328FDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				080E96DCFE201CFB7F000001,
+				01146B7DFF672EB811CA0C5D,
+			);
+			isa = PBXResourcesBuildPhase;
+		};
+		29B9732BFDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				29B9732CFDCFA39411CA2CEA,
+				21C3FD49FEAB647A11CA0E35,
+				00C8CB34FF64637D7F000001,
+			);
+			isa = PBXSourcesBuildPhase;
+		};
+		29B9732CFDCFA39411CA2CEA = {
+			fileRef = 29B97316FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		29B9732DFDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				1629D12AFF67EE6211CA0C5D,
+			);
+			isa = PBXFrameworksBuildPhase;
+		};
+//290
+//291
+//292
+//293
+//294
+//6F0
+//6F1
+//6F2
+//6F3
+//6F4
+		6F027049FF601FB711CA0E33 = {
+			isa = PBXApplicationReference;
+			path = StockObserver.app;
+			refType = 3;
+		};
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA;
+}
