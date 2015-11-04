@@ -16,31 +16,6 @@
 		41DA6D2807B1AACB00958F0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1629D127FF67EE6211CA0C5D /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		01D4F809FFB7A98F11CA0CA4 /* Development */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				OPTIMIZATION_CFLAGS = "-O0";
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		01D4F80AFFB7A98F11CA0CA4 /* Deployment */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXFileReference section */
 		00C8CB33FF64637D7F000001 /* NotificationObserve.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = NotificationObserve.c; sourceTree = "<group>"; };
 		01146B7CFF672EB811CA0C5D /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
@@ -161,23 +136,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-StockObserver.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = StockObserver;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
 			dependencies = (
 			);
 			name = StockObserver;
@@ -192,15 +150,12 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = B633C69508A3B52600363363 /* Build configuration list for PBXProject "StockObserver" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				01D4F809FFB7A98F11CA0CA4 /* Development */,
-				01D4F80AFFB7A98F11CA0CA4 /* Deployment */,
-			);
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CocoaApp */;
 			projectDirPath = "";
+			projectRoot = "";
+			shouldCheckCompatibility = 1;
 			targets = (
 				41DA6D1D07B1AACB00958F0E /* StockObserver */,
 			);
@@ -330,18 +285,24 @@
 		B633C69608A3B52600363363 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
 			};
 			name = Development;
 		};
 		B633C69708A3B52600363363 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
 			};
 			name = Deployment;
 		};
 		B633C69808A3B52600363363 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
 			};
 			name = Default;
 		};
